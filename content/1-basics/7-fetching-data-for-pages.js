@@ -204,7 +204,7 @@ Post.getInitialProps = async function (context) {
 export default Post
 ~~~
 
-Have a look at the getInitialProps of that page:
+Have a look at the \`getInitialProps\` of that page:
 
 ~~~js
 Post.getInitialProps = async function (context) {
@@ -224,12 +224,12 @@ In our example, we picked the show ID from query params and fetched its show dat
 
 ---
 
-In this getInitialProps function, we have added a console.log to print the show title. Now we are going to see where it's going to print.
+In this \`getInitialProps\` function, we have added a \`console.log\` to print the show title. Now we are going to see where it's going to print.
 
 Open both the server console and the client console.
 Then visit to the home page http://localhost:3000 and click on the first Batman show title.
 
-In what places have you seen the above mentioned console.log message?
+In what places have you seen the above mentioned \`console.log\` message?
       `,
     },
 
